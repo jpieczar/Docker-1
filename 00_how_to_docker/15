@@ -1,0 +1,4 @@
+phpmyadmin container: background task
+named roach-warden
+bind port 80 to port 8081
+should be able to explore the DB in spawning-pool

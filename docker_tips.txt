@@ -1,0 +1,14 @@
+docker run {container_name}
+docker start {container_name}
+docker stop {container_name}
+docker ps -a
+	List containers (all)
+docker image ls
+	List images
+docker volume ls
+	List volumes
+docker volume create {volume_name}
+docker top {container_name}
+	Get the PID for the specific docker container
+	Use top -p {pid} to see it as a system process
+docker inspect {container_name}
